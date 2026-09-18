@@ -197,6 +197,7 @@ main{display:block}
 .field{margin-bottom:18px}
 .field label{display:block;font-size:14px;font-weight:600;margin-bottom:6px}
 .field label em{color:var(--text-muted);font-weight:400;font-style:normal}
+.honeypot-field{position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;opacity:0}
 .field input,.field textarea{
   width:100%;padding:12px 14px;border:1px solid var(--border);border-radius:var(--radius-sm);
   font-family:inherit;font-size:15px;background:#fff;color:var(--text);
